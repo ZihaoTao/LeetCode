@@ -25,19 +25,33 @@ public class isScramble {
         return false;
     }
 
-    public boolean isScramble2(String s1, String s2) {
-        int len1 = s1.length();
-        int len2 = s2.length();
-        if(len1 != len2) return false;
-        boolean[][][] dp = new boolean[len1][len1][len1];
-        for (int i = 0; i < len1; i++) {
-            for(int j = 0; j < len1; j++) {
-                if(s1.charAt(i) == s2.charAt(i)) {
-                    dp[0][i][j] = true;
-                }
-            }
-        }
-    }
+//    public boolean isScramble2(String s1, String s2) {
+//        int len1 = s1.length();
+//        int len2 = s2.length();
+//        if(len1 != len2) return false;
+//        boolean[][][] dp = new boolean[len1][len1][len1];
+//        for (int i = 0; i < len1; i++) {
+//            for(int j = 0; j < len1; j++) {
+//                if(s1.charAt(i) == s2.charAt(i)) {
+//                    dp[0][i][j] = true;
+//                }
+//            }
+//        }
+//
+//        for(int k=1;k<len1; k++){
+//            for(int i=0; i<len1-k ;i++){
+//                for(int j=0; j<len1-k; j++){
+//                    if(!dp[k][i][j]){
+//                        for(int q = 0; q < k; q++){
+//                            if( (dp[q][i][j] && dp[k-q-1][i+q+1][j+q+1]) || (dp[q][i][j+k-q] && dp[k-q-1][i+q+1][j]) )
+//                                dp[k][i][j] = true;
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//        return dp[len1-1][0][0];
+//    }
 }
 
 //bool isScramble(string s1, string s2) {
