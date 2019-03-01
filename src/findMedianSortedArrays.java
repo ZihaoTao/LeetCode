@@ -2,8 +2,8 @@ public class findMedianSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
-        int left = (m + n) / 2;
-        int right = (m + n) / 2 + 1;
+        int left = (m + n + 1) / 2;
+        int right = (m + n + 2) / 2;
         if((m + n) % 2 == 0) {
             return (helper(nums1, 0, nums2, 0, left) + helper(nums1, 0, nums2, 0, right)) / 2.0;
         } else {

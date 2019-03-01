@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921055b9-efac-47e1-88c9-7f4875ffc8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/countPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/findWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/isHappy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/isIsomorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minSubArrayLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/removeElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containsNearbyAlmostDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containsNearbyDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/countNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findKthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/largestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/largestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/maxProfit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/combinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/combinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/combinationSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/combinationSum2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/findMedianSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/findMedianSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/rob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/rob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/combinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/combinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/combinationSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/combinationSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findMedianSortedArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,32 +29,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/minSubArrayLen.java">
+        <entry file="file://$PROJECT_DIR$/src/combinationSum3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/findWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rob.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/combinationSum2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="72">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/combinationSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/combine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containsDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containsNearbyDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containsNearbyAlmostDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maximalSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/findMedianSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/countNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,17 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sortList.java" />
-        <option value="$PROJECT_DIR$/src/wordBreak.java" />
-        <option value="$PROJECT_DIR$/src/hasCycle.java" />
-        <option value="$PROJECT_DIR$/src/detectCycle.java" />
-        <option value="$PROJECT_DIR$/src/reorderList.java" />
-        <option value="$PROJECT_DIR$/src/insertionSortList.java" />
-        <option value="$PROJECT_DIR$/src/evalRPN.java" />
-        <option value="$PROJECT_DIR$/src/Point.java" />
-        <option value="$PROJECT_DIR$/src/maxPoints.java" />
-        <option value="$PROJECT_DIR$/src/canCompleteCircuit.java" />
-        <option value="$PROJECT_DIR$/src/candy.java" />
         <option value="$PROJECT_DIR$/src/cloneGraph.java" />
         <option value="$PROJECT_DIR$/src/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/reverseWords.java" />
@@ -123,6 +182,17 @@
         <option value="$PROJECT_DIR$/src/WordDictionary.java" />
         <option value="$PROJECT_DIR$/src/findWords.java" />
         <option value="$PROJECT_DIR$/src/rob.java" />
+        <option value="$PROJECT_DIR$/src/shortestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/findKthLargest.java" />
+        <option value="$PROJECT_DIR$/src/combinationSum.java" />
+        <option value="$PROJECT_DIR$/src/combinationSum2.java" />
+        <option value="$PROJECT_DIR$/src/combinationSum3.java" />
+        <option value="$PROJECT_DIR$/src/containsDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/findMedianSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/containsNearbyDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/containsNearbyAlmostDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/maximalSquare.java" />
+        <option value="$PROJECT_DIR$/src/countNodes.java" />
       </list>
     </option>
   </component>
@@ -144,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,14 +231,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551397926753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551433177353" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -190,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.rob">
+  <component name="RunManager" selected="Application.maximalSquare">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -203,16 +273,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isIsomorphic" />
+    <configuration name="combinationSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="combinationSum3" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="largestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="largestNumber" />
+    <configuration name="maximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maximalSquare" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -227,16 +297,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverseBits" />
+    <configuration name="rob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rob" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rob" />
+    <configuration name="shortestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shortestPalindrome" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -269,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maximalSquare" />
+        <item itemvalue="Application.combinationSum3" />
+        <item itemvalue="Application.shortestPalindrome" />
         <item itemvalue="Application.rob" />
         <item itemvalue="Application.minSubArrayLen" />
-        <item itemvalue="Application.isIsomorphic" />
-        <item itemvalue="Application.reverseBits" />
-        <item itemvalue="Application.largestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -288,18 +358,19 @@
       <option name="presentableId" value="Default" />
       <updated>1550788856292</updated>
       <workItem from="1550788857486" duration="58472000" />
-      <workItem from="1551215342607" duration="46429000" />
+      <workItem from="1551215342607" duration="52652000" />
+      <workItem from="1551413668081" duration="2304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104901000" />
+    <option name="totallyTimeSpent" value="113428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,111 +453,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="595" selection-start-line="595" selection-end-line="595" />
-          <folding>
-            <element signature="e#23682#23683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maxPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partitionPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/canCompleteCircuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/candy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/copyRandomList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maxProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/findMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/getIntersectionNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -650,13 +616,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxProfit.java" />
     <entry file="file://$PROJECT_DIR$/src/maxProfitI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -685,17 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reverseBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reverseBits.java" />
     <entry file="file://$PROJECT_DIR$/src/rotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -769,17 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/canFinish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/canFinish.java" />
     <entry file="file://$PROJECT_DIR$/src/reverseList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -787,16 +727,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordDictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/WordDictionary.java" />
+    <entry file="file://$PROJECT_DIR$/src/rob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="5" lean-forward="true" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -808,21 +753,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/findWords.java">
+    <entry file="file://$PROJECT_DIR$/src/shortestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findKthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rob.java">
+    <entry file="file://$PROJECT_DIR$/src/combinationSum3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="468">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containsNearbyDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containsNearbyAlmostDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maximalSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findMedianSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/countNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
