@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class calculateII {
-    public int calculate(String s) {
+    public long calculate(String s) {
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
         for(int i = 0; i < s.length(); i++) {
@@ -42,6 +42,6 @@ public class calculateII {
     }
 
     public static void main(String[] args) {
-        System.out.println((new calculateII()).calculate("2*3+4"));
+        System.out.println((new calculateII()).calculate("9223372036854775807"));
     }
 }

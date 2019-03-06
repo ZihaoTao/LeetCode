@@ -18,6 +18,7 @@ public class test {
 
     public static void main(String[] args) {
         int[] test = {3,6,2,9,5,2,1};
-        System.out.println((new test()).test(test));
+
+        System.out.println(Integer.parseInt("2147483648"));
     }
 }
