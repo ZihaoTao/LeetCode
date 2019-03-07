@@ -17,8 +17,8 @@ public class buildTree {
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {3, 1, 2, 4};
-        int[] nums2 = {1, 2, 3, 4};
+        int[] nums1 = {1, 2, 2};
+        int[] nums2 = {2, 1, 2};
         (new buildTree()).buildTree(nums1, nums2);
     }
 }
