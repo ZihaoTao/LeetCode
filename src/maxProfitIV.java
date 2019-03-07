@@ -21,6 +21,7 @@ public class maxProfitIV {
         for (int i = 0; i < n; i++) {
             for (int j = 1; j <= k; j++) {
                 buy[j] = Math.max(buy[j], sell[j - 1] - prices[i]);
+                // on j th day, sell or not sell
                 sell[j] = Math.max(sell[j], buy[j] + prices[i]);
             }
         }
