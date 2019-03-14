@@ -14,7 +14,7 @@ public class subsetsWithDup {
     }
 
     private void dfs(int[] nums, int index, List<Integer> list) {
-        res.add(new ArrayList<Integer>(list));
+        res.add(new ArrayList<>(list));
         for(int i = index; i < nums.length; i++) {
             if(i != index && nums[i - 1] == nums[i]) {
                 continue;

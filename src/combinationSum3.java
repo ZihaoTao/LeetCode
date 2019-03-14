@@ -27,7 +27,7 @@ public class combinationSum3 {
 
     private void dfs(int k, int n, int index, List<Integer> list) {
         if(list.size() == k && n == 0) {
-            res.add(new ArrayList<Integer>(list));
+            res.add(new ArrayList<>(list));
         } else {
             for(int i = index; i <= 9; i++) {
                 if(i <= n) {

@@ -18,7 +18,7 @@ public class setZeroes {
         }
 
         for(int i : setX) {
-            for(int j = 1; j < n; j++) {
+            for(int j = 0; j < n; j++) {
                 matrix[i][j] = 0;
             }
         }

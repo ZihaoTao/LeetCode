@@ -8,13 +8,12 @@ public class longestValidParentheses {
             char c = s.charAt(i);
             if (c == '(') {
                 stack.push(i);
-            }
-            if (c == ')') {
+            } else {
                 if (stack.isEmpty()) {
                     start = i + 1;
                 } else {
                     stack.pop();
-                    res = stack.isEmpty() ? Math.max(res, i - start + 1) : Math.max(res, i - stack.peek());
+                    res = Math.max(res, (stack.isEmpty() ? i - start + 1 : i - stack.peek()));
                 }
             }
         }

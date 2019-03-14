@@ -3,7 +3,7 @@ public class mySqrt {
         int l = 1, r = x, res = 0;
         while (l <= r) {
             int mid = (l + r) / 2;
-            if (mid * mid <= x ) {
+            if (mid <= x / mid) {
                 l = mid + 1;
                 res = mid;
             } else {

@@ -1,12 +1,12 @@
 public class myPow {
     public double myPow(double x, int n) {
-        if(n < 0) return 1 / myPow(x, -n);
-        return power(x, n);
+        if (n < 0) return 1 / helper(x, -n);
+        return helper(x, n);
     }
 
-    private double power(double x, int n) {
+    private double helper(double x, int n) {
         if(n == 0) return 1;
-        double half = power(x, n / 2);
+        double half = helper(x, n / 2);
         if(n % 2 == 0) {
             return half * half;
         } else {

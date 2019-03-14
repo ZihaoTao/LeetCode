@@ -27,7 +27,7 @@ public class solveSudoku {
         int y = index % 9;
         if(board[x][y] == '.') {
             for(int i = 1; i <= 9; i++) {
-                if(!row[x][i] && !col[y][i] && !block[x / 3 * 3 + y /3][i]) {
+                if(!row[x][i] && !col[y][i] && !block[x / 3 * 3 + y / 3][i]) {
                     board[x][y] = (i + "").charAt(0);
                     row[x][i] = true;
                     col[y][i] = true;

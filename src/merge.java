@@ -7,28 +7,27 @@ public class merge {
     public List<Interval> merge(List<Interval> intervals) {
         List<Interval> res = new ArrayList<>();
         PriorityQueue<Interval> pq = new PriorityQueue<>(new Comparator<Interval>() {
-            @Override
             public int compare(Interval o1, Interval o2) {
                 return o1.start - o2.start;
             }
         });
+
         for(Interval i : intervals) {
             pq.add(i);
         }
 
         while(!pq.isEmpty()) {
-            Interval temp = pq.remove();
+            Interval t = pq.remove();
             if(res.size() == 0) {
-                res.add(temp);
+                res.add(t);
             } else {
-                Interval temp2 = res.get(res.size() - 1);
-                if(!(temp.start > temp2.end || temp.end < temp2.start)) {
+                Interval pre = res.get(res.size() - 1);
+                if(pre.end < t.start) {
+                    res.add(t);
+                } else if(pre.end < t.end) {
                     res.remove(res.size() - 1);
-                    int start = Math.min(temp.start, temp2.start);
-                    int end = Math.max(temp.end, temp2.end);
-                    res.add(new Interval(start, end));
-                } else {
-                    res.add(temp);
+                    pre.end = t.end;
+                    res.add(pre);
                 }
             }
         }

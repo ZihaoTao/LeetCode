@@ -10,4 +10,14 @@ public class numTrees {
         }
         return dp[n];
     }
+
+    public int numTrees2(int n) {
+        if (n <= 1) return 1;
+        int sum = 0;
+        for(int i = 1; i <= n; i++) {
+            // left node num : i - 1; right node num : n - i
+            sum += numTrees2(i - 1) * numTrees2(n - i);
+        }
+        return sum;
+    }
 }
