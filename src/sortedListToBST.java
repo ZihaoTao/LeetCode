@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class sortedListToBST {
     public TreeNode sortedListToBST(ListNode head) {
         int size = 0;
@@ -33,26 +31,20 @@ public class sortedListToBST {
     public TreeNode sortedListToBST2(ListNode head) {
         if(head == null)
             return null;
-        ListNode cur = head;
-        int count = 0;
-        while(cur!=null)
-        {
-            cur = cur.next;
-            count++;
-        }
-        ArrayList<ListNode> list = new ArrayList<ListNode>();
-        list.add(head);
-        return helper(list,0,count-1);
+        return helper(head, null);
     }
-    private TreeNode helper(ArrayList<ListNode> list, int l, int r) {
-        if (l > r)
-            return null;
-        int m = (l + r) / 2;
-        TreeNode left = helper(list, l, m - 1);
-        TreeNode root = new TreeNode(list.get(0).val);
-        root.left = left;
-        list.set(0, list.get(0).next);
-        root.right = helper(list, m + 1, r);
-        return root;
+    private TreeNode helper(ListNode l, ListNode r) {
+        if(l == r) return null;
+        ListNode fast = l;
+        ListNode slow = l;
+        while(fast != r && fast.next != r) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        TreeNode node = new TreeNode(slow.val);
+        node.left = helper(l, slow);
+        node.right = helper(slow.next, r);
+        return node;
     }
 }

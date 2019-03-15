@@ -5,7 +5,7 @@ public class buildTree {
 
     private TreeNode helper(int[] preorder, int index, int[] inorder, int l, int r) {
         if(l > r) return null;
-        for(int i = 0; i < preorder.length; i++) {
+        for(int i = l; i <= r; i++) {
             if(preorder[index] == inorder[i]) {
                 TreeNode node = new TreeNode(preorder[index]);
                 node.left = helper(preorder, index + 1, inorder, l, i - 1);
