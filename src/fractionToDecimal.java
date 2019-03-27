@@ -10,18 +10,18 @@ public class fractionToDecimal {
         long out = num / den;
         long rem = num % den;
 
-        Map<Long, Integer> map = new HashMap<>();
         String res = "" + out;
         if (s1 * s2 == -1 && (out > 0 || rem > 0)) res = "-" + res;
         if (rem == 0) return res;
         res += ".";
         StringBuilder sb = new StringBuilder();
+        Map<Long, Integer> map = new HashMap<>();
         int pos = 0;
         while(rem != 0) {
-            if( map.containsKey(rem)) {
-                sb.setCharAt(map.get(rem), '(');
-                sb.append(')');
-                return sb.toString();
+            if(map.containsKey(rem)) {
+                return res +
+                        sb.toString().substring(0, map.get(rem)) + '('
+                        + sb.toString().substring(map.get(rem)) + ')';
             }
             map.put(rem, pos);
             sb.append(rem * 10 / den);

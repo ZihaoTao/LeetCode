@@ -1,29 +1,29 @@
-import java.util.PriorityQueue;
+import java.util.Stack;
 
 class BSTIterator {
-    TreeNode root;
-    PriorityQueue<Integer> pq;
+    Stack<TreeNode> s;
     public BSTIterator(TreeNode root) {
-        this.root = root;
-        pq = new PriorityQueue();
-        getPQ(root);
+        s = new Stack<>();
+        while(root != null) {
+            s.push(root);
+            root = root.left;
+        }
     }
 
     /** @return the next smallest number */
     public int next() {
-        return pq.remove();
+        TreeNode n = s.pop();
+        int res = n.val;
+        TreeNode node = n.right;
+        while(node != null) {
+            s.push(node);
+            node = node.left;
+        }
+        return res;
     }
 
     /** @return whether we have a next smallest number */
     public boolean hasNext() {
-        return !pq.isEmpty();
-    }
-
-    private void getPQ(TreeNode node) {
-        if(node != null) {
-            pq.add(node.val);
-            getPQ(node.left);
-            getPQ(node.right);
-        }
+        return !s.isEmpty();
     }
 }
