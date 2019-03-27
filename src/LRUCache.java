@@ -1,54 +1,96 @@
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
-class LRUCache {
-    int capacity;
-    int count;
-    List<Integer> list;
-    List<Integer> nums;
+public class LRUCache {
+    private HashMap<Integer, DoubleLinkedListNode> map
+            = new HashMap<Integer, DoubleLinkedListNode>();
+    private DoubleLinkedListNode head;
+    private DoubleLinkedListNode end;
+    private int capacity;
+    private int len;
+
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        count = 0;
-        list = new LinkedList<>();
-        nums = new LinkedList<>();
+        len = 0;
     }
 
     public int get(int key) {
-        if(!list.contains(key)) {
+        if (map.containsKey(key)) {
+            DoubleLinkedListNode latest = map.get(key);
+            removeNode(latest);
+            setHead(latest);
+            return latest.val;
+        } else {
             return -1;
-        } else {
-            int index = list.indexOf(key);
-            return nums.get(index);
         }
     }
 
-    public void put(int key, int value) {
-        if(count != capacity) {
-            if(list.contains(key)) {
-                int index = list.indexOf(key);
-                nums.set(index, value);
+    public void removeNode(DoubleLinkedListNode node) {
+        DoubleLinkedListNode cur = node;
+        DoubleLinkedListNode pre = cur.pre;
+        DoubleLinkedListNode post = cur.next;
+
+        if (pre != null) {
+            pre.next = post;
+        } else {
+            head = post;
+        }
+
+        if (post != null) {
+            post.pre = pre;
+        } else {
+            end = pre;
+        }
+    }
+
+    public void setHead(DoubleLinkedListNode node) {
+        node.next = head;
+        node.pre = null;
+        if (head != null) {
+            head.pre = node;
+        }
+
+        head = node;
+        if (end == null) {
+            end = node;
+        }
+    }
+
+    public void set(int key, int value) {
+        if (map.containsKey(key)) {
+            DoubleLinkedListNode oldNode = map.get(key);
+            oldNode.val = value;
+            removeNode(oldNode);
+            setHead(oldNode);
+        } else {
+            DoubleLinkedListNode newNode =
+                    new DoubleLinkedListNode(key, value);
+            if (len < capacity) {
+                setHead(newNode);
+                map.put(key, newNode);
+                len++;
             } else {
-                list.add(key);
-                nums.add(value);
-                count++;
+                map.remove(end.key);
+                end = end.pre;
+                if (end != null) {
+                    end.next = null;
+                }
+
+                setHead(newNode);
+                map.put(key, newNode);
             }
-        } else {
-            list.remove(list.size() - 1);
-            nums.remove(nums.size() - 1);
-            list.add(0, key);
-            nums.add(0, value);
         }
     }
+}
 
-    // TODO: 2019-02-26 not right
-    public static void main(String[] args) {
-        LRUCache cache = new LRUCache(2);
-        cache.put(2, 1);
-        cache.put(2, 2);
-        System.out.println(cache.get(2));       // returns 1
-        cache.put(1, 1);    // evicts key 2
-        cache.put(4, 1);
-        System.out.println(cache.get(2));       // returns -1 (not found)
+class DoubleLinkedListNode {
+    public int val;
+    public int key;
+    public DoubleLinkedListNode pre;
+    public DoubleLinkedListNode next;
+
+    public DoubleLinkedListNode(int key, int value) {
+        val = value;
+        this.key = key;
     }
 }
 

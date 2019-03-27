@@ -23,6 +23,25 @@ public class findMin {
         return nums[0];
     }
 
+    // binarySearch
+
+    public int findMin3(int[] nums) {
+        int l = 0;
+        int r = nums.length - 1;
+        while(l < r) {
+            int mid = l + (r - l) / 2;
+            if(nums[mid] < nums[r]) {
+                r = mid;
+            } else {
+                l = mid;
+            }
+            if(mid + 1 == r) {
+                return nums[r];
+            }
+        }
+        return nums[l];
+    }
+
     public static void main(String[] args) {
         int[] test = {2,2,2,0};
         System.out.println((new findMin()).findMin2(test));
