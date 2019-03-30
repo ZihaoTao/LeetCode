@@ -1,7 +1,7 @@
 public class maximalSquare {
-    public int maximalSquare(char[][] matrix) {
+    public int[][] maximalSquare(char[][] matrix) {
         int m = matrix.length;
-        if(m == 0) return 0;
+        if(m == 0) return null;
         int n = matrix[0].length;
         int[][] dp = new int[m + 1][n + 1];
         int res = dp[0][0];
@@ -13,11 +13,17 @@ public class maximalSquare {
                 }
             }
         }
-        return res * res;
+        return dp;
     }
 
     public static void main(String[] args) {
-        char[][] test = {{'1'}};
-        System.out.println((new maximalSquare()).maximalSquare(test));
+        char[][] test = {{'1', '1', '1'}, {'1', '1', '1'}, {'1', '1', '1'}};
+        int[][] res = (new maximalSquare()).maximalSquare(test);
+        for(int i = 0; i < res.length; i++) {
+            for(int j = 0; j < res[0].length; j++) {
+                System.out.print(res[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

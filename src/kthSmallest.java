@@ -23,4 +23,28 @@ public class kthSmallest {
         }
         return -1;
     }
+
+    int res = -1;
+    public int kthSmallest2(TreeNode root, int k) {
+        helper(root, k);
+        return res;
+    }
+
+    private void helper(TreeNode root, int k) {
+        if(root != null) {
+            helper(root.left, k - 1);
+            if (k == 0) {
+                res = root.val;
+            }
+            helper(root.right, k - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        TreeNode node = new TreeNode(3);
+        node.left = new TreeNode(1);
+        node.right = new TreeNode(4);
+        node.left.right = new TreeNode(2);
+        System.out.println((new kthSmallest()).kthSmallest2(node, 1));
+    }
 }

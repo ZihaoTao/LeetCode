@@ -24,4 +24,12 @@ public class reverseList {
         }
         return dummyHead.next;
     }
+
+    public ListNode reverseList3(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode p = reverseList3(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
+    }
 }

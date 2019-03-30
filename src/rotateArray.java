@@ -40,4 +40,25 @@ public class rotateArray {
             nums[0] = t;
         }
     }
+
+    public void rotate4(int[] nums, int k) {
+        k = k % nums.length;
+        int count = 0;
+        for(int i = 0; count < nums.length; i++) {
+            int next = nums[i];
+            int cur = i;
+            do {
+                cur = (cur + k) % nums.length;
+                int temp = nums[cur];
+                nums[cur] = next;
+                next = temp;
+                count++;
+            } while(cur != i);
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] test = {1,2,3,4,5,6,7};
+        (new rotateArray()).rotate4(test, 3);
+    }
 }

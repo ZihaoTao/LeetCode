@@ -41,6 +41,45 @@ public class calculateII {
         return res;
     }
 
+    public int calculate2(String s) {
+        int sign = 1;
+        Stack<Integer> stack = new Stack<>();
+        for(int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if(Character.isDigit(c)) {
+                int j = i + 1;
+                while(j < s.length() && Character.isDigit(s.charAt(j))) {
+                    j++;
+                }
+                stack.push(sign);
+                stack.push(Integer.parseInt(s.substring(i, j)));
+                i = j - 1;
+            } else if (c == '+') {
+                sign = 1;
+            } else if (c == '-') {
+                sign = -1;
+            } else if (c == '*' || c == '/') {
+                int pre = stack.pop();
+                int j = i + 1;
+
+                while(j < s.length() && (Character.isDigit(s.charAt(j)) || s.charAt(j) == ' ')) {
+                    j++;
+                }
+                if(c == '/') {
+                    stack.push(pre / Integer.parseInt(s.substring(i + 1, j).trim()));
+                } else {
+                    stack.push(pre * Integer.parseInt(s.substring(i + 1, j).trim()));
+                }
+                i = j - 1;
+            }
+        }
+        int res = 0;
+        while(!stack.isEmpty()) {
+            res += stack.pop() * stack.pop();
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         System.out.println((new calculateII()).calculate("9223372036854775807"));
     }
