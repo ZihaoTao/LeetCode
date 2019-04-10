@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class test {
@@ -27,5 +28,6 @@ public class test {
         System.out.println(a << 1); // 11010
         System.out.println(a >> 1); // 110 signed
         System.out.println(a >>> 1); // unsigned
+        System.out.println(new Date());
     }
 }

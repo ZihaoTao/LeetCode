@@ -57,6 +57,23 @@ public class rotateArray {
         }
     }
 
+    public void rotate5(int[] nums, int k) {
+        k %= nums.length;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+    }
+
+    private void reverse(int[] nums, int l, int r) {
+        while(l < r) {
+            int temp = nums[r];
+            nums[r] = nums[l];
+            nums[l] = temp;
+            l++;
+            r--;
+        }
+    }
+
     public static void main(String[] args) {
         int[] test = {1,2,3,4,5,6,7};
         (new rotateArray()).rotate4(test, 3);

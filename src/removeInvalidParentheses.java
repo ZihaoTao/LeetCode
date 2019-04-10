@@ -1,47 +1,41 @@
 import java.util.*;
 
 public class removeInvalidParentheses {
-    List<String> ret;
     Set<String> set;
-    int length;
+    int max;
     public List<String> removeInvalidParentheses(String s) {
-        length = 0;
-        ret = new ArrayList<>();
+        List<String> res = new ArrayList<>();
+        max = 0;
         set = new HashSet<>();
-        Stack<Character> stack = new Stack<>();
-        dfs(s, 0, "", stack);
+        dfs(s, 0, "", 0);
         for(String i : set) {
-            ret.add(i);
+            res.add(i);
         }
-        return ret;
+        return res;
     }
 
-    private void dfs(String s, int index, String str, Stack<Character> stack) {
-        if(stack.isEmpty() && index == s.length()) {
-            if(str.length() >= length) {
-                if(str.length() > length) {
+    private void dfs(String s, int index, String str, int left) {
+        if(left == 0 && index == s.length()) {
+            if(str.length() >= max) {
+                if(str.length() > max) {
+                    max = str.length();
                     set = new HashSet<>();
-                    length = str.length();
                 }
                 set.add(str);
             }
-        } else if (index < s.length()){
+        } else if (index < s.length() && s.length() - index + 1 >= left){
             char c = s.charAt(index);
             if(c != '(' && c != ')') {
-                dfs(s, index + 1, str + c, stack);
+                dfs(s, index + 1, str + c, left);
             } else if(c == '(') {
-                dfs(s, index + 1, str, stack);
-                stack.push(c);
-                dfs(s, index + 1, str + c, stack);
-                stack.pop();
+                dfs(s, index + 1, str, left);
+                dfs(s, index + 1, str + c, left + 1);
             } else {
-                if(stack.isEmpty()) {
-                    dfs(s, index + 1, str, stack);
+                if(left != 0) {
+                    dfs(s, index + 1, str, left);
+                    dfs(s, index + 1, str + c, left - 1);
                 } else {
-                    dfs(s, index + 1, str, stack);
-                    char t = stack.pop();
-                    dfs(s, index + 1, str + c, stack);
-                    stack.push(t);
+                    dfs(s, index + 1, str, left);
                 }
             }
         }

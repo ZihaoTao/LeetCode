@@ -23,25 +23,25 @@ public class countAndSay {
 
 
     public String countAndSay2(int n) {
-        String s = "1";
+        String res = "1";
         for(int i = 1; i < n; i++) {
+            String temp = "";
             int count = 1;
-            String t = "";
-            for(int j = 1; j < s.length(); j++) {
-                if(s.charAt(j - 1) == s.charAt(j)) {
+            for(int j = 1; j < res.length(); j++) {
+                if(res.charAt(j) == res.charAt(j - 1)) {
                     count++;
                 } else {
-                        t += "" + count + s.charAt(j - 1);
-                        count = 1;
+                    temp += "" + count + res.charAt(j - 1);
+                    count = 1;
                 }
             }
-            t += "" + count + s.charAt(s.length() - 1);
-            s = t;
+            temp += "" + count + res.charAt(res.length() - 1);
+            res = temp;
         }
-        return s;
+        return res;
     }
 
     public static void main(String[] args) {
-        System.out.println((new countAndSay()).countAndSay2(5));
+        System.out.println((new countAndSay()).countAndSay2(10));
     }
 }

@@ -20,22 +20,13 @@ public class getIntersectionNode {
     public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
         ListNode curA = headA;
         ListNode curB = headB;
-        while(curA != null || curB != null) {
-            if(curA == curB) return curA;
-
-            if(curA != null) {
-                curA = curA.next;
-            } else {
-                curA = headB;
-            }
-
-            if(curB != null) {
-                curB = curB.next;
-            } else {
-                curB = headA;
-            }
+        while(curA != curB) {
+            if(curA == null) curA = headB;
+            else curA = curA.next;
+            if(curB == null) curB = headA;
+            else curB = curB.next;
         }
-        return null;
+        return curA;
     }
 
     public static void main(String[] args) {

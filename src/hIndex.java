@@ -9,7 +9,7 @@ public class hIndex {
         }
 
         for(int i = 0; i < t.length; i++) {
-            if(i >= t[i]) {
+            if (i >= t[i]) {
                 return i;
             }
         }

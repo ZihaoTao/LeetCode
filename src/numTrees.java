@@ -20,4 +20,22 @@ public class numTrees {
         }
         return sum;
     }
+
+    public int numTrees3(int n) {
+        return helper(1, n);
+    }
+
+    private int helper(int l, int r) {
+        if(l > r) {
+            return 1;
+        } else {
+            int res = 0;
+            for(int i = l; i <= r; i++) {
+                int left = helper(l, i - 1);
+                int right = helper(i + 1, r);
+                res += left * right;
+            }
+            return res;
+        }
+    }
 }

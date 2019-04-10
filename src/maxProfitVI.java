@@ -16,7 +16,7 @@ public class maxProfitVI {
     public int maxProfit2(int[] prices) {
         int n = prices.length, buy = Integer.MIN_VALUE, sell = 0, presell = 0;
         for(int i = 0; i < n; i++) {
-            int oldSell = sell;
+            int oldSell = sell; // sell of day before yesterday
             buy = Math.max(buy, presell - prices[i]);
             sell = Math.max(oldSell, buy + prices[i]);
             presell = oldSell;

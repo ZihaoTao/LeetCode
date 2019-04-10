@@ -1,22 +1,27 @@
 public class rotate {
     public void rotate(int[][] matrix) {
-        int n = matrix.length;
-        for(int i = 0; i < n - 1; i++) {
-            for(int j = 0; j < n - i; j++) {
-                swap(matrix, i, j, n - j - 1, n - i - 1);
+        int m = matrix.length;
+
+        for(int i = 0; i < m; i++) {
+            int l = 0;
+            int r = m - 1;
+            while(l < r) {
+                swap(matrix, l, i, r, i);
+                l++;
+                r--;
             }
         }
 
-        for(int i = 0; i < n / 2; i++) {
-            for(int j = 0; j < n; j++) {
-                swap(matrix, i, j, n - i - 1, j);
+        for(int i = 0; i < m; i++) {
+            for(int j = i; j < m; j++) {
+                swap(matrix, i, j, j, i);
             }
         }
     }
 
-    private void swap(int[][] matrix, int i, int j, int a, int b) {
-        int temp = matrix[i][j];
-        matrix[i][j] = matrix[a][b];
-        matrix[a][b] = temp;
+    private void swap(int[][] matrix, int a, int b, int c, int d) {
+        int t = matrix[a][b];
+        matrix[a][b] = matrix[c][d];
+        matrix[c][d] = t;
     }
 }

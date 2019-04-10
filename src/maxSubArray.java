@@ -1,6 +1,6 @@
 public class maxSubArray {
     public int maxSubArray(int[] nums) {
-        int res = Integer.MIN_VALUE;
+        int res = nums[0];
         int count = 0;
         for(int i : nums) {
             count = Math.max(count + i, i);
@@ -9,21 +9,15 @@ public class maxSubArray {
         return res;
     }
 
-    //int maxSubArray(int* nums, int numsSize) {
-    //    int maxSum=nums[0],thisSum=nums[0];
-    //    int i;
-    //    for(i=1; i<numsSize; ++i){
-    //        if(thisSum<0)
-    //            thisSum=nums[i];
-    //        else
-    //            thisSum+=nums[i];
-    //        if(thisSum>maxSum)
-    //            maxSum = thisSum;
-    //    }
-    //    //if(maxSum<0)
-    //     //   maxSum = 0;
-    //    return maxSum;
-    //}
+    public int maxSubArray2(int[] nums) {
+        int n = nums.length;
+        int res = nums[0];
+        for(int i = 1; i < n; i++) {
+            nums[i] = Math.max(nums[i], nums[i] + nums[i - 1]);
+            res = Math.max(res, nums[i]);
+        }
+        return res;
+    }
 
     public static void main(String[] args) {
         int[] test = {-1, -1,  -3, 3, 1};
