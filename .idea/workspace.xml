@@ -2,130 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921055b9-efac-47e1-88c9-7f4875ffc8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA2/all2sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA2/amazonFresh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA2/maximumMinimumPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountKSubStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/permuteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testInterview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoSumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isAlienSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lengthLongestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/licenseKeyFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rotateString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/META-INF/LC.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/addBinary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/addTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/canJump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/canPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/climbStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/combinationSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/combinationSum2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/combine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/countAndSay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/divide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/exist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/findMedianSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/firstMissingPositive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/fourSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/fullJustify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/generateMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/generateParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/getPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/groupAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/insert$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/intToRoman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/isMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/isNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/isPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/isValid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/isValidSudoku.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/jump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/lengthOfLastWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/lengthOfLongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/letterCombinations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/longestCommonPrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/longestPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/longestValidParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/maxArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/maxSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/merge$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/mergeKLists$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/mergeKLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/mergeTwoLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/minDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/minPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/minWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/multiply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/myPow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/mySqrt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/nextPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/partitionDisjoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/permute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/permuteUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/plusOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/removeDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/removeDuplicatesII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/removeElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/removeNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/reverseKGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/romanToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/rotate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/rotateRight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/searchInsert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/searchMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/searchRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/setZeroes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/simplifyPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/solveNQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/solveSudoku.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/sortColors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/spiralOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/strStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/subsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/swapPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/threeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/threeSumClosest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/totalNQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/trap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/twoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/uniquePaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LC/uniquePathsWithObstacles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/PeekingIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/PeekingIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/addOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/addOperators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/climbStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/climbStairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/connect$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/connect$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/connect$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/connect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countAndSay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countAndSay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/getHint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/getHint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/maxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/maxSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/minWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/minWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/numTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/numTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/removeInvalidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/removeInvalidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/rotate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PeekingIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PeekingIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/climbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/climbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countAndSay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getHint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getHint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getIntersectionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maxProfitVI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maxProfitVI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/numTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/numTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/removeInvalidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/removeInvalidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/getIntersectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/getIntersectionNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/rotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/rotateArray.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,54 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AmazonOA2/all2sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/getIntersectionNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/convertToTitle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trailingZeroes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maxProfitV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maxProfitIV.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -205,29 +40,83 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
+            <state relative-caret-position="169">
               <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isValidBST.java">
+        <entry file="file://$PROJECT_DIR$/src/rotateString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="236">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isValidSudoku.java">
+        <entry file="file://$PROJECT_DIR$/src/isAlienSorted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/licenseKeyFormatting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lengthLongestPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rightSideView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/majorityElementII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -253,10 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/flatten.java" />
-        <option value="$PROJECT_DIR$/src/maxProfitII.java" />
-        <option value="$PROJECT_DIR$/src/maxProfitI.java" />
-        <option value="$PROJECT_DIR$/src/reverseVowels.java" />
         <option value="$PROJECT_DIR$/src/wiggleSort.java" />
         <option value="$PROJECT_DIR$/src/wiggleSortII.java" />
         <option value="$PROJECT_DIR$/src/firstMissingPositive.java" />
@@ -304,6 +189,10 @@
         <option value="$PROJECT_DIR$/src/getIntersectionNode.java" />
         <option value="$PROJECT_DIR$/src/rotate.java" />
         <option value="$PROJECT_DIR$/src/rotateArray.java" />
+        <option value="$PROJECT_DIR$/src/rotateString.java" />
+        <option value="$PROJECT_DIR$/src/isAlienSorted.java" />
+        <option value="$PROJECT_DIR$/src/licenseKeyFormatting.java" />
+        <option value="$PROJECT_DIR$/src/lengthLongestPath.java" />
       </list>
     </option>
   </component>
@@ -371,17 +260,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.all2sum">
+  <component name="RunManager" selected="Application.lengthLongestPath">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountKSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountKSubStr" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -406,30 +287,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="connect" />
+    <configuration name="isAlienSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isAlienSorted" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maximumMinimumPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazonOA2.maximumMinimumPath" />
+    <configuration name="lengthLongestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lengthLongestPath" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AmazonOA2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testInterview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testInterview" />
+    <configuration name="licenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="licenseKeyFormatting" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rotateString" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -463,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lengthLongestPath" />
+        <item itemvalue="Application.licenseKeyFormatting" />
+        <item itemvalue="Application.isAlienSorted" />
+        <item itemvalue="Application.rotateString" />
         <item itemvalue="Application.all2sum" />
-        <item itemvalue="Application.maximumMinimumPath" />
-        <item itemvalue="Application.CountKSubStr" />
-        <item itemvalue="Application.connect" />
-        <item itemvalue="Application.testInterview" />
       </list>
     </recent_temporary>
   </component>
@@ -522,12 +405,12 @@
       <workItem from="1554572786428" duration="150000" />
       <workItem from="1554595282790" duration="175000" />
       <workItem from="1554747012760" duration="9227000" />
-      <workItem from="1554929871249" duration="375000" />
+      <workItem from="1554929871249" duration="3404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244700000" />
+    <option name="totallyTimeSpent" value="247729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +425,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,7 +434,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3370508" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3370508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4820322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -695,6 +578,18 @@
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rotateString.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/isAlienSorted.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -702,59 +597,6 @@
     <SUITE FILE_PATH="coverage/LeetCode$climbStairs.ic" NAME="climbStairs Coverage Results" MODIFIED="1554260365507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculateII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="e#2764#2765#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testBS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nthUglyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1088,8 +930,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
+        <state relative-caret-position="169">
           <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/majorityElementII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rightSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isAlienSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/licenseKeyFormatting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lengthLongestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
