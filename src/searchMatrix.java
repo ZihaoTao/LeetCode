@@ -34,7 +34,7 @@ public class searchMatrix {
     }
 
     public static void main(String[] args) {
-        int[][] test = {{1}, {3}};
-        System.out.println((new searchMatrix()).searchMatrix(test, 3));
+        int[][] test = {{-5}};
+        System.out.println((new searchMatrix()).searchMatrix(test, -10));
     }
 }
