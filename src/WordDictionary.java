@@ -1,54 +1,63 @@
-class TrieNode {
-    char c;
-    boolean isWord;
-    TrieNode[] children = new TrieNode[26];
-    public TrieNode() {}
-    public TrieNode(char c) {
-        this.c = c;
-    }
-}
-
 class WordDictionary {
-    TrieNode root;
+
+    class TrieNode {
+        char c;
+        TrieNode[] children;
+        boolean isWord;
+        public TrieNode() {
+            children = new TrieNode[26];
+        }
+        public TrieNode(char c) {
+            children = new TrieNode[26];
+            this.c = c;
+        }
+    }
+
+    TrieNode node;
     /** Initialize your data structure here. */
     public WordDictionary() {
-        root = new TrieNode();
+        node = new TrieNode();
     }
 
     /** Adds a word into the data structure. */
     public void addWord(String word) {
-        TrieNode ws = root;
+        TrieNode ws = node;
         for(int i = 0; i < word.length(); i++) {
-            char c = word.charAt(i);
-            if(ws.children[c - 'a'] == null) {
-                ws.children[c - 'a'] = new TrieNode(c);
-            }
-            ws = ws.children[c - 'a'];
+            char ch = word.charAt(i);
+            if(ws.children[ch - 'a'] == null)
+                ws.children[ch - 'a'] = new TrieNode(ch);
+            ws = ws.children[ch - 'a'];
         }
         ws.isWord = true;
     }
 
     /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
     public boolean search(String word) {
-        return helper(word, root);
+
+        return helper(word, 0, node);
     }
 
-    private boolean helper(String word, TrieNode node) {
-        if(word.length() == 0) return node.isWord;
 
-        char c = word.charAt(0);
-        boolean res = false;
-        if(c != '.') {
-            if(node.children[c - 'a'] == null) return false;
-            return helper(word.substring(1), node.children[c - 'a']);
-        } else {
-            for (TrieNode j : node.children) {
-                if(j != null) {
-                    res = res || helper(word.substring(1), j);
+    private boolean helper(String word, int index, TrieNode trie) {
+        if(index < word.length()) {
+            TrieNode ws = trie;
+            char ch = word.charAt(index);
+            if(ch != '.') {
+                if(ws.children[ch - 'a'] == null) return false;
+                ws = ws.children[ch - 'a'];
+                return helper(word, index + 1, ws);
+            } else {
+                for(TrieNode j : ws.children) {
+                    if(j != null && helper(word, index + 1, j)) {
+                        return true;
+                    }
                 }
+                return false;
             }
-            return res;
+        } else {
+            return trie.isWord;
         }
+
     }
 }
 

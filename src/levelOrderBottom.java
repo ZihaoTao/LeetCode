@@ -5,28 +5,17 @@ public class levelOrderBottom {
         List<List<Integer>> res = new ArrayList<>();
         if(root == null) return res;
         Queue<Item> q = new LinkedList<>();
-        Stack<List<Integer>> stack = new Stack<>();
         q.add(new Item(0, root));
         while(!q.isEmpty()) {
             Item item = q.remove();
-            int level = item.level;
             TreeNode node = item.node;
-
-            if(stack.size() == level) {
-                stack.push(new ArrayList<Integer>());
+            int level = item.level;
+            if(level == res.size()) {
+                res.add(0, new ArrayList<Integer>());
             }
-            List<Integer> list = stack.pop();
-            list.add(node.val);
-            stack.push(list);
-            if(node.left != null) {
-                q.add(new Item(level + 1, node.left));
-            }
-            if(node.right != null) {
-                q.add(new Item(level + 1, node.right));
-            }
-        }
-        while(!stack.isEmpty()) {
-            res.add(stack.pop());
+            res.get(0).add(node.val);
+            if(node.left != null) q.add(new Item(level + 1, node.left));
+            if(node.right != null) q.add(new Item(level + 1, node.right));
         }
         return res;
     }
@@ -34,7 +23,7 @@ public class levelOrderBottom {
     private class Item {
         int level;
         TreeNode node;
-        private Item(int level, TreeNode node) {
+        public Item(int level, TreeNode node) {
             this.level = level;
             this.node = node;
         }

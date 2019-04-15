@@ -9,11 +9,11 @@ public class multiply {
            }
        }
 
-       for(int i = 0; i < temp.length - 1; i++) {
-           if(temp[i] > 9) {
-               temp[i + 1] += temp[i] / 10;
-               temp[i] %= 10;
-           }
+       int carry = 0;
+       for(int i = 0; i < temp.length; i++) {
+           temp[i] += carry;
+           carry = temp[i] / 10;
+           temp[i] %= 10;
        }
 
        StringBuilder sb = new StringBuilder();

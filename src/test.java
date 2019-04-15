@@ -29,5 +29,8 @@ public class test {
         System.out.println(a >> 1); // 110 signed
         System.out.println(a >>> 1); // unsigned
         System.out.println(new Date());
+
+        System.out.println((char)('A' + 32));
+        System.out.println(String.valueOf("null"));
     }
 }
