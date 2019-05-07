@@ -31,7 +31,26 @@ public class fractionToDecimal {
         return res + sb.toString();
     }
 
+    public String fractionToDecimal2(int numerator, int denominator) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int a = numerator / denominator;
+        int b = numerator % denominator;
+        String s = "";
+        b *= 10;
+        while(!map.containsKey(b)) {
+            map.put(b, s.length());
+            s += (b / denominator);
+            b = (b % denominator) * 10;
+            if(b == 0) return a + "." + s;
+        }
+
+        int index = map.get(b);
+        s = s.substring(0, index - 1) + '(' + s.substring(index - 1) + ')';
+        return a + "." + s;
+    }
+
     public static void main(String[] args) {
-        System.out.println((new fractionToDecimal()).fractionToDecimal(4, 69));
+
+        System.out.println((new fractionToDecimal()).fractionToDecimal2(4, 69));
     }
 }

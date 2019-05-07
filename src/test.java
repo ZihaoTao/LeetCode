@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Stack;
 
 public class test {
     List<Integer> list;
@@ -32,5 +33,14 @@ public class test {
 
         System.out.println((char)('A' + 32));
         System.out.println(String.valueOf("null"));
+
+
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
+        stack1.push(-1024);
+        stack2.push(512);
+        System.out.println(stack1.peek() == stack2.peek());
+        System.out.println(0b11111111111111111111111111111101);
+        //3221225471 (10111111111111111111111111111111)
     }
 }

@@ -12,9 +12,8 @@ public class insertionSortList {
                     t.next = pre.next;
                     pre.next = t;
                     break;
-                } else {
-                    pre = pre.next;
                 }
+                    pre = pre.next;
             }
             if (pre == cur) {
                 cur = cur.next;

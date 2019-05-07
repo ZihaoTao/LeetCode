@@ -70,7 +70,6 @@ class LRUCache {
     }
 
     private void removeNode(DoubleLinkedListNode node) {
-        DoubleLinkedListNode cur = node;
         DoubleLinkedListNode pre = node.pre;
         DoubleLinkedListNode post = node.next;
 

@@ -22,19 +22,25 @@ public class reverse {
         return isNeg ? -sum : sum;
     }
 
-    public static int reverse2(int x) {
-        int result = 0;
-        int dig;
-        int temp;
-        while(x != 0){
-            dig = x % 10;
-            temp = dig + result * 10;
-            if((temp - dig)/10 != result){
+    public int reverse2(int x) {
+        boolean isNeg = false;;
+        if(x < 0) {
+            isNeg = true;
+            x = -x;
+        }
+        int res = 0;
+        while(x > 0) {
+            int temp = res * 10 + x % 10;
+            if((temp - x % 10) / 10 != res) {
                 return 0;
             }
-            result = temp;
+            res = temp;
             x /= 10;
         }
-        return result;
+        return isNeg ? -res : res;
+    }
+
+    public static void main(String[] args) {
+        System.out.println((new reverse()).reverse(-322212120));
     }
 }

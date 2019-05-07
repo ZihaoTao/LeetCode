@@ -2,25 +2,22 @@ import java.util.*;
 
 public class grayCode {
     Set<String> set;
-    List<String> list;
+    List<Integer> res;
     public List<Integer> grayCode(int n) {
         set = new HashSet<>();
-        list = new ArrayList<>();
-        List<Integer> res = new ArrayList<>();
+        res = new ArrayList<>();
         String s = "";
         for(int i = 0; i < n; i++) {
             s += "0";
         }
-        dfs(n, 0, s);
-        for(String i : list) {
-            res.add(toInt(i));
-        }
+        dfs(n, s);
         return res;
     }
 
-    private void dfs(int n, int index, String s) {
-        if(!set.contains(s) && set.size() < Math.pow(2, n)) {
-            list.add(s);
+    private void dfs(int n, String s) {
+        if(!set.contains(s) && res.size() < Math.pow(2, n)) {
+            set.add(s);
+            res.add(toInt(s));
             for (int i = 0; i < n; i++) {
                 StringBuilder sb = new StringBuilder(s);
                 if (sb.charAt(i) == '0') {
@@ -28,7 +25,7 @@ public class grayCode {
                 } else {
                     sb.setCharAt(i, '0');
                 }
-                dfs(n, index + 1, sb.toString());
+                dfs(n, sb.toString());
             }
         }
     }
@@ -42,6 +39,6 @@ public class grayCode {
     }
 
     public static void main(String[] args) {
-        (new grayCode()).grayCode(2);
+        System.out.println((new grayCode()).grayCode(2));
     }
 }

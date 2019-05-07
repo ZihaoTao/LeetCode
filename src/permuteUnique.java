@@ -2,33 +2,29 @@ import java.util.*;
 
 public class permuteUnique {
     List<List<Integer>> res;
+    Set<Integer> set;
+
     public List<List<Integer>> permuteUnique(int[] nums) {
         res = new ArrayList<>();
-        if(nums.length == 0) {
-            return res;
-        }
+        set = new HashSet<>();
         Arrays.sort(nums);
         List<Integer> list = new ArrayList<>();
-        Set<Integer> set = new HashSet<>();
-        dfs(nums, list, set);
+        dfs(nums, list);
         return res;
     }
 
-    private void dfs(int[] nums, List<Integer> list, Set<Integer> set) {
+    private void dfs(int[] nums, List<Integer> list) {
         if(list.size() == nums.length) {
-            List<Integer> temp = new ArrayList<>(list);
-            res.add(temp);
+            res.add(new ArrayList<>(list));
         } else {
             for(int i = 0; i < nums.length; i++) {
-                if(i != 0 && nums[i - 1] == nums[i]) {
-                    continue;
-                }
+                if(i != 0 && nums[i - 1] == nums[i] && !set.contains(i - 1)) continue;
                 if(!set.contains(i)) {
-                    list.add(nums[i]);
                     set.add(i);
-                    dfs(nums, list, set);
-                    set.remove(i);
+                    list.add(nums[i]);
+                    dfs(nums, list);
                     list.remove(list.size() - 1);
+                    set.remove(i);
                 }
             }
         }

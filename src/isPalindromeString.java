@@ -18,8 +18,27 @@ public class isPalindromeString {
         }
         return true;
     }
+    public boolean isPalindrome2(String s) {
+        s = s.toLowerCase();
+        int l = 0;
+        int r = s.length() - 1;
+        while(l < r) {
+            while(l < r && !Character.isLetter(s.charAt(l))) {
+                l++;
+            }
+            while(l < r && !Character.isLetter(s.charAt(r))) {
+                r--;
+            }
+            if(s.charAt(l) != s.charAt(r)) {
+                return false;
+            }
+            l++;
+            r--;
+        }
+        return true;
+    }
 
     public static void main(String[] args) {
-        (new isPalindromeString()).isPalindrome(" ");
+        (new isPalindromeString()).isPalindrome2("0P");
     }
 }
