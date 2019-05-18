@@ -4,10 +4,9 @@ import java.util.Queue;
 public class invertTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return null;
-        TreeNode left = invertTree(root.left);
-        TreeNode right = invertTree(root.right);
-        root.right = left;
-        root.left = right;
+        TreeNode temp = root.left;
+        root.left = invertTree(root.right);
+        root.right = invertTree(temp);
         return root;
     }
 
@@ -20,13 +19,8 @@ public class invertTree {
             TreeNode temp = node.left;
             node.left = node.right;
             node.right = temp;
-            if(node.left != null) {
-                q.add(node.left);
-            }
-
-            if(node.right != null) {
-                q.add(node.right);
-            }
+            if(node.left != null) q.add(node.left);
+            if(node.right != null) q.add(node.right);
         }
         return root;
     }

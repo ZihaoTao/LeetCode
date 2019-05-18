@@ -1,20 +1,17 @@
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class countNodes {
     public int countNodes(TreeNode root) {
-        if(root == null) return 0;
-        Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
-        int res = 0;
-        while(!q.isEmpty()) {
-            TreeNode node = q.remove();
-            if(node != null) {
-                res ++;
-                q.add(node.left);
-                q.add(node.right);
-            }
+        int hL = 0, hR = 0;
+        TreeNode left = root, right = root;
+        while(left != null) {
+            left = left.left;
+            hL++;
         }
-        return res;
+
+        while(right != null) {
+            right = right.right;
+            hR++;
+        }
+        if(hL == hR) return (int)Math.pow(2, hR) - 1;
+        return countNodes(root.left) + countNodes(root.right) + 1;
     }
 }

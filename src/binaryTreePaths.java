@@ -6,29 +6,18 @@ public class binaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
         res = new ArrayList<>();
         if(root == null) return res;
-        dfs(root, "" + root.val);
+        dfs(root, "");
         return res;
     }
 
     private void dfs(TreeNode node, String s) {
         if(node.left == null && node.right == null) {
-            res.add(s);
+            res.add(s + node.val);
         } else {
-            if(node.left != null) {
-                String t = s;
-                s += "->" + node.left.val;
-                dfs(node.left, s);
-                s = t;
-            }
-            if(node.right != null) {
-                String t = s;
-                s += "->" + node.right.val;
-                dfs(node.right, s);
-                s = t;
-            }
+            if(node.left != null) dfs(node.left, s + node.val + "->");
+            if(node.right != null)dfs(node.right, s + node.val + "->");
         }
     }
-
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);

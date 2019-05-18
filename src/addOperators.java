@@ -29,7 +29,7 @@ public class addOperators {
     }
 
     public static void main(String[] args) {
-        System.out.println((new addOperators()).addOperators("2147483648", -2147483648));
+        System.out.println((new addOperators()).addOperators("2147483648", 10));
     }
 
     //"2147483648"

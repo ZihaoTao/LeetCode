@@ -1,41 +1,34 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class maxSlidingWindow {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        ArrayList<Integer> list = new ArrayList<>();
         if(nums.length == 0) return new int[0];
         int l = 0;
-        int r = 0;
+        int r = k - 1;
         int max = Integer.MIN_VALUE;
-        for(r = 0; r < k; r++) {
-            max = Math.max(max, nums[r]);
+        List<Integer> list = new ArrayList<>();
+        for(int i = l; i <= r && i < nums.length; i++) {
+            max = Math.max(max, nums[i]);
         }
         list.add(max);
-        r--;
         while(r + 1 < nums.length) {
-            r++;
-            int remove = nums[l];
-            int add = nums[r];
-            l++;
-            if(add > max) {
-                max = add;
+            if(nums[l] == max) {
+                max = Integer.MIN_VALUE;
+                for(int i = l + 1; i <= r + 1; i++) {
+                    max = Math.max(max, nums[i]);
+                }
             }
-            if(remove == max) {
-                max = find(nums, l, r);
+            if(nums[r + 1] > max) {
+                max = nums[r + 1];
             }
             list.add(max);
+            l++;
+            r++;
         }
         int[] res = new int[list.size()];
-        for(int i = 0; i < list.size(); i++) {
+        for(int i = 0; i < res.length; i++) {
             res[i] = list.get(i);
-        }
-        return res;
-    }
-
-    private int find(int[] nums, int l, int r) {
-        int res = Integer.MIN_VALUE;
-        for(int i = l; i <= r; i++) {
-            res = Math.max(res, nums[i]);
         }
         return res;
     }

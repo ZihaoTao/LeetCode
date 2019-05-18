@@ -3,16 +3,27 @@ import java.util.Arrays;
 public class hIndex {
     public int hIndex(int[] citations) {
         Arrays.sort(citations);
-        int[] t = new int[citations.length];
-        for(int i = 0; i < citations.length; i++) {
-            t[i] = citations[citations.length - 1 - i];
+        int l = 0;
+        int r = citations.length - 1;
+        while(l < r) {
+            int temp = citations[l];
+            citations[l] = citations[r];
+            citations[r] = temp;
+            l++;
+            r--;
         }
 
-        for(int i = 0; i < t.length; i++) {
-            if (i >= t[i]) {
+        for(int i = 0; i < citations.length; i++) {
+            if(citations[i] <= i) {
                 return i;
             }
         }
-        return t.length;
+        return citations.length;
+    }
+
+    public static void main(String[] args) {
+        int[] test = {1,2,4,5,6};
+        (new hIndex()).hIndex(test);
+        System.out.println(Arrays.toString(test));
     }
 }

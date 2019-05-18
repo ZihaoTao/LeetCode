@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class test {
     List<Integer> list;
@@ -18,6 +15,23 @@ public class test {
             helper(node.right, level - 1);
         }
     }
+
+    public int nthUglyNumber(int n) {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        while(list.size() < n) {
+            int min = Math.min(list.get(a) * 2, Math.min(list.get(b) * 3, list.get(c) * 5));
+            list.add(min);
+            if(min == list.get(a) * 2) a = list.size() - 1;
+            else if(min == list.get(b) * 3) b = list.size() - 1;
+            else c = list.size() - 1;
+        }
+        return list.get(list.size() - 1);
+    }
+
     public static void main(String[] args) {
         int a = 0b1101;
         int b = 0b0100;
@@ -42,5 +56,14 @@ public class test {
         System.out.println(stack1.peek() == stack2.peek());
         System.out.println(0b11111111111111111111111111111101);
         //3221225471 (10111111111111111111111111111111)
+
+        (new test()).nthUglyNumber(10);
+
+
+        String[] strs = new String[] { "A", "B", "C", "D" };
+
+        // getting the list view of Array
+        List<String> list = Arrays.asList(strs);
+        System.out.println();
     }
 }
