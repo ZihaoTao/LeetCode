@@ -65,5 +65,11 @@ public class test {
         // getting the list view of Array
         List<String> list = Arrays.asList(strs);
         System.out.println();
+        int i = 2;
+        while(i <= 10) {
+            System.out.println(i);
+            i += (i & -i);
+        }
+
     }
 }
