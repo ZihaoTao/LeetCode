@@ -71,5 +71,8 @@ public class test {
             i += (i & -i);
         }
 
+        int[] tt = {1, 4, 23,6,34, 0, 2};
+        Arrays.sort(tt, 2, tt.length);
+        System.out.println(Arrays.toString(tt));
     }
 }
