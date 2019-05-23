@@ -45,15 +45,13 @@ public class maxPoints {
         return dx + "/" + dy;
     }
 
-    private int gcd( int a , int b ){
-
-        if( a < b )
-            return gcd(b, a);
-
-        if( a % b == 0 )
-            return b;
-
-        return gcd( b , a%b );
+    private int gcd(int a, int b){
+        while(b != 0 ){
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
     }
 
     public static void main(String[] args) {

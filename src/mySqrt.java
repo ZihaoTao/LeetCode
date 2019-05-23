@@ -5,11 +5,10 @@ public class mySqrt {
             int mid = (l + r) / 2;
             if (mid <= x / mid) {
                 l = mid + 1;
-                res = mid;
             } else {
                 r = mid - 1;
             }
         }
-        return res;
+        return r;
     }
 }

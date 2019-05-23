@@ -1,39 +1,31 @@
 import java.util.*;
 
 public class topKFrequent {
+    Map<Integer, Integer> map;
     public List<Integer> topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
+        map = new HashMap<>();
         for(int i : nums) {
-            if(!map.containsKey(i)) {
-                map.put(i, 1);
-            } else {
+            if(map.containsKey(i)) {
                 map.put(i, map.get(i) + 1);
+            } else {
+                map.put(i, 1);
             }
         }
 
-        PriorityQueue<Item> pq = new PriorityQueue<>(new Comparator<Item>() {
-            public int compare(Item o1, Item o2) {
-                return o2.freq - o1.freq;
+        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
+            public int compare(Integer o1, Integer o2) {
+                return map.get(o2) - map.get(o1);
             }
         });
 
         for(int i : map.keySet()) {
-            pq.add(new Item(i, map.get(i)));
+            pq.add(i);
         }
 
-        List<Integer> list = new ArrayList<>();
+        List<Integer> res = new ArrayList<>();
         for(int i = 0; i < k; i++) {
-            list.add(pq.remove().n);
+            res.add(pq.remove());
         }
-        return list;
-    }
-
-    private class Item {
-        int n;
-        int freq;
-        public Item(int n, int freq) {
-            this.n = n;
-            this.freq = freq;
-        }
+        return res;
     }
 }
