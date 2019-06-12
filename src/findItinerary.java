@@ -5,7 +5,7 @@ public class findItinerary {
         Map<String, PriorityQueue<String>> map = new HashMap<>();
         for(List<String> i : tickets) {
             if(!map.containsKey(i.get(0))) {
-                map.put(i.get(0), new PriorityQueue<String>());
+                map.put(i.get(0), new PriorityQueue<>());
             }
             map.get(i.get(0)).add(i.get(1));
         }

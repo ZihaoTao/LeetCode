@@ -2,37 +2,37 @@ import java.util.*;
 
 public class largestDivisibleSubset {
     public List<Integer> largestDivisibleSubset(int[] nums) {
+        int n = nums.length;
+        int[] count = new int[n];
+        int[] pre = new int[n];
         Arrays.sort(nums);
-        Map<Integer, List<Integer>> map = new HashMap<>();
-
-        List<Integer> res = new ArrayList<>();
-        if(nums.length == 0) return res;
-        res.add(nums[0]);
-        int len = 1;
-        for(int i = 0; i < nums.length; i++) {
-            map.put(i, new ArrayList<Integer>());
-            map.get(i).add(nums[i]);
-            for(int j = 0; j < i; j++) {
-
-                if(nums[i] % nums[j] == 0) {
-                    if(map.get(j).size() + 1 > map.get(i).size()) {
-                        List<Integer> list = new ArrayList<>(map.get(j));
-                        map.put(i, list);
-                        map.get(i).add(nums[i]);
-                    }
-                    if(map.get(i).size() > len) {
-
-                        res = map.get(i);
-                        len = res.size();
+        int max = 0, index = -1;
+        for (int i = 0; i < n; i++) {
+            count[i] = 1;
+            pre[i] = -1;
+            for (int j = i - 1; j >= 0; j--) {
+                if (nums[i] % nums[j] == 0) {
+                    if (1 + count[j] > count[i]) {
+                        count[i] = count[j] + 1;
+                        pre[i] = j;
                     }
                 }
             }
+            if (count[i] > max) {
+                max = count[i];
+                index = i;
+            }
+        }
+        List<Integer> res = new ArrayList<>();
+        while (index != -1) {
+            res.add(nums[index]);
+            index = pre[index];
         }
         return res;
     }
 
     public static void main(String[] args) {
-        int[] test = {1,2,4,8, 5,7};
+        int[] test = {1,2,4,8,5,7};
         System.out.println((new largestDivisibleSubset()).largestDivisibleSubset(test));
     }
 }

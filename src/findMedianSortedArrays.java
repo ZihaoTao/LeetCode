@@ -1,52 +1,35 @@
 public class findMedianSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m = nums1.length;
-        int n = nums2.length;
-        int left = (m + n + 1) / 2;
-        int right = (m + n + 2) / 2;
-        if((m + n) % 2 == 0) {
-            return (helper(nums1, 0, nums2, 0, left) + helper(nums1, 0, nums2, 0, right)) / 2.0;
-        } else {
-            return helper(nums1, 0, nums2, 0, left);
-        }
-    }
+        int n1 = nums1.length;
+        int n2 = nums2.length;
 
-    private int helper(int[] nums1, int i, int[] nums2, int j, int k) {
-        if(i >= nums1.length) return nums2[j + k - 1];
-        if(j >= nums2.length) return nums1[i + k - 1];
-        if(k == 1) return Math.min(nums1[i], nums2[j]);
-        int mid1 = (i + k / 2 - 1 < nums1.length) ? nums1[i + k / 2 - 1] : Integer.MAX_VALUE;
-        int mid2 = (j + k / 2 - 1 < nums2.length) ? nums2[j + k / 2 - 1] : Integer.MAX_VALUE;
-        if (mid1 < mid2) {
-            return helper(nums1, i + k / 2, nums2, j, k - k / 2);
-        } else {
-            return helper(nums1, i, nums2, j + k / 2, k - k / 2);
-        }
-    }
+        if(n1 > n2) return findMedianSortedArrays(nums2, nums1);
 
-    public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
-        int[] num = new int[nums1.length + nums2.length];
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        while(i < nums1.length || j < nums2.length) {
-            if(i < nums1.length && j < nums2.length) {
-                if(nums1[i] < nums2[j]) {
-                    num[k++] = nums1[i++];
-                } else {
-                    num[k++] = nums2[j++];
-                }
-            } else if(i < nums1.length) {
-                num[k++] = nums1[i++];
+        int k = (n1 + n2 + 1) / 2;
+
+        int l = 0;
+        int r = n1;
+        while(l < r) {
+            int m1 = l + (r - l) / 2;
+            int m2 = k - m1;
+            if(nums1[m1] < nums2[m2]) {
+                l = m1 + 1;
             } else {
-                num[k++] = nums2[j++];
+                r = m1;
             }
         }
-        if(num.length % 2 == 1) {
-            return num[num.length / 2];
-        } else {
-            return (double)(num[num.length / 2] + num[num.length / 2 - 1]) / 2;
-        }
-    }
 
+        int m1 = l;
+        int m2 = k - l;
+
+        int c1 = Math.max((m1 <= 0 ? Integer.MIN_VALUE : nums1[m1 - 1]),
+                (m2 <= 0 ? Integer.MIN_VALUE : nums2[m2 - 1]));
+
+        if((n1 + n2) % 2 == 1) return c1;
+
+        int c2 = Math.max((m1 >= n1 ? Integer.MAX_VALUE : nums1[m1]),
+                (m2 >= n2 ? Integer.MAX_VALUE : nums2[m2]));
+
+        return (c1 + c2) * 0.5;
+    }
 }
