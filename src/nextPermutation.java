@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class nextPermutation {
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
@@ -29,18 +31,9 @@ public class nextPermutation {
         nums[b] = temp;
     }
 
-    //void nextPermutation(vector<int> &num) {
-    //        int i, j, n = num.size();
-    //        for (i = n - 2; i >= 0; --i) {
-    //            if (num[i + 1] > num[i]) {
-    //                for (j = n - 1; j > i; --j) {
-    //                    if (num[j] > num[i]) break;
-    //                }
-    //                swap(num[i], num[j]);
-    //                reverse(num.begin() + i + 1, num.end());
-    //                return;
-    //            }
-    //        }
-    //        reverse(num.begin(), num.end());
-    //    }
+    public static void main(String[] args) {
+        int[] test = {1,2,3,5,4};
+        (new nextPermutation()).nextPermutation(test);
+        System.out.println(Arrays.toString(test));
+    }
 }

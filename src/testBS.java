@@ -13,6 +13,20 @@ public class testBS {
         return r;
     }
 
+    private int flooring(int[] nums, int target) {
+        int l = 0;
+        int r = nums.length - 1;
+        while(l <= r) {
+            int mid = l + (r - l) / 2;
+            if(nums[mid] >= target) {
+                r = mid - 1;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
+
     private int ceiling2(int[] nums, int target) {
         int l = 0;
         int r = nums.length - 1;
@@ -30,8 +44,9 @@ public class testBS {
     }
 
     public static void main(String[] args) {
-        int[] test = {-1, 0, 1, 2, 3};
-        System.out.println((new testBS()).ceiling(test, 10));
-        System.out.println((new testBS()).ceiling2(test, 10));
+        int[] test = {1};
+        System.out.println((new testBS()).flooring(test, 0));
+        System.out.println((new testBS()).ceiling(test, 0));
+
     }
 }

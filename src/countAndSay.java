@@ -24,24 +24,24 @@ public class countAndSay {
 
     public String countAndSay2(int n) {
         String res = "1";
-        for(int i = 1; i < n; i++) {
+        for(int i = 0; i < n - 1; i++) {
             String temp = "";
             int count = 1;
             for(int j = 1; j < res.length(); j++) {
-                if(res.charAt(j) == res.charAt(j - 1)) {
+                if(res.charAt(j - 1) == res.charAt(j)) {
                     count++;
                 } else {
-                    temp += "" + count + res.charAt(j - 1);
+                    temp += count + "" + res.charAt(j - 1);
                     count = 1;
                 }
             }
-            temp += "" + count + res.charAt(res.length() - 1);
+            temp += count + "" +res.charAt(res.length() - 1);
             res = temp;
         }
         return res;
     }
 
     public static void main(String[] args) {
-        System.out.println((new countAndSay()).countAndSay2(10));
+        System.out.println((new countAndSay()).countAndSay2(5));
     }
 }
