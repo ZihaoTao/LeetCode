@@ -1,4 +1,5 @@
 public class countSubstrings {
+    //pal
     public int countSubstrings(String s) {
         boolean[][] dp = new boolean[s.length()][s.length()];
         int res = 0;

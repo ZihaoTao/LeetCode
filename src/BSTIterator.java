@@ -1,8 +1,9 @@
+import java.util.Iterator;
 import java.util.Stack;
 
-class BSTIterator {
+class BSTIterator implements Iterator<Integer> {
     Stack<TreeNode> s;
-    public BSTIterator(TreeNode root) {
+    public BSTIterator(TreeNode root){
         s = new Stack<>();
         while(root != null) {
             s.push(root);
@@ -11,7 +12,7 @@ class BSTIterator {
     }
 
     /** @return the next smallest number */
-    public int next() {
+    public Integer next() {
         TreeNode n = s.pop();
         int res = n.val;
         TreeNode node = n.right;

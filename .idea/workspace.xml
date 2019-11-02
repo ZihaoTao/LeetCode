@@ -2,29 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921055b9-efac-47e1-88c9-7f4875ffc8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/isMatchRegExpress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findWords2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maxProductString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/splitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countAndSay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countAndSay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/findSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/findSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/generateParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/generateParenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/intToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/intToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/isMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/letterCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/letterCombinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/nextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/nextPermutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/reverseKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/reverseKGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/testBS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/testBS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countAndSay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generateParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/isMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/isMatchWildCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/removeDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/removeDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reverseKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testBS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BSTIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BSTIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/coinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/coinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/convert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countDigitOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countDigitOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countSmaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countSmaller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countSubstrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countSubstrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/findKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/findKthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/findMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/findMin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/groupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/groupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/isAdditiveNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/jump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/jump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/mySqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/mySqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/nthSuperUglyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/nthSuperUglyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/permute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/permute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/reverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/reverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/searchInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/searchInsert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/searchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/searchRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/testString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/testString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countDigitOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countDigitOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countSmaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countSubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countSubstrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/groupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/isAdditiveNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mySqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nthSuperUglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nthSuperUglyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/removeDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/removeDuplicateLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +55,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="redo">
+      <favorite_root url="containsNearbyAlmostDuplicate" module="LeetCode" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="countRangeSum" module="LeetCode" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+      <favorite_root url="countSmaller" module="LeetCode" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +85,9 @@
         <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.0.5" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1OiBddn02ofK5LXdhd5TPtEgWMz" />
   <component name="PropertiesComponent">
@@ -86,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testBS">
+  <component name="RunManager" selected="Application.coinChange">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,40 +135,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="convert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="convert" />
+    <configuration name="coinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coinChange" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isMatchRegExpress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isMatchRegExpress" />
+    <configuration name="isAdditiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isAdditiveNumber" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isMatchWildCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isMatchWildCard" />
+    <configuration name="maxCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxCoins" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testBS" />
+    <configuration name="maxProductString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxProductString" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testString" />
+    <configuration name="nthSuperUglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nthSuperUglyNumber" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -166,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testBS" />
-        <item itemvalue="Application.isMatchRegExpress" />
-        <item itemvalue="Application.isMatchWildCard" />
-        <item itemvalue="Application.convert" />
-        <item itemvalue="Application.testString" />
+        <item itemvalue="Application.coinChange" />
+        <item itemvalue="Application.maxProductString" />
+        <item itemvalue="Application.nthSuperUglyNumber" />
+        <item itemvalue="Application.maxCoins" />
+        <item itemvalue="Application.isAdditiveNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +344,30 @@
       <workItem from="1564765307073" duration="1603000" />
       <workItem from="1564904837564" duration="3000" />
       <workItem from="1567544673315" duration="5289000" />
-      <workItem from="1567624696939" duration="2753000" />
+      <workItem from="1567624696939" duration="3666000" />
+      <workItem from="1567699022449" duration="219000" />
+      <workItem from="1567705400415" duration="5445000" />
+      <workItem from="1568053565431" duration="2535000" />
+      <workItem from="1568150561363" duration="2411000" />
+      <workItem from="1568431489704" duration="30000" />
+      <workItem from="1568442465767" duration="151000" />
+      <workItem from="1568445431249" duration="237000" />
+      <workItem from="1568490667901" duration="297000" />
+      <workItem from="1568660922610" duration="1073000" />
+      <workItem from="1568925109013" duration="300000" />
+      <workItem from="1569375194684" duration="9799000" />
+      <workItem from="1569530808354" duration="3325000" />
+      <workItem from="1569721238156" duration="58000" />
+      <workItem from="1569721332973" duration="11794000" />
+      <workItem from="1570730766751" duration="6000" />
+      <workItem from="1570731696595" duration="331000" />
+      <workItem from="1570783710663" duration="289000" />
+      <workItem from="1570787999957" duration="399000" />
+      <workItem from="1570942945607" duration="2000" />
+      <workItem from="1571255827935" duration="9462000" />
+      <workItem from="1571547834609" duration="4993000" />
+      <workItem from="1571966409056" duration="629000" />
+      <workItem from="1572374396027" duration="7965000" />
     </task>
     <servers />
   </component>
@@ -479,6 +538,11 @@
           <url>file://$PROJECT_DIR$/src/SummaryRangesInterval.java</url>
           <line>41</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/findWords2.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

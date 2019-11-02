@@ -1,14 +1,21 @@
+import java.util.Arrays;
+
 public class testString {
-    public void test() {
-        String[] ss = new String[4];
-        for(int i = 0; i < ss.length; i++) {
-            ss[i] = "";
+    public int climbStairs(int n) {
+        int a = 1;
+        int b = 1;
+        for(int i = 0; i < n; i++) {
+            if(i % 2 == 0) {
+                a += b;
+            } else {
+                b += a;
+            }
         }
-        ss[3] += "ds";
-        System.out.println(ss[3]);
+        if(n % 2 == 0) return a;
+        return b;
     }
 
     public static void main(String[] args) {
-        new testString().test();
+        System.out.println(new testString().climbStairs(4));
     }
 }

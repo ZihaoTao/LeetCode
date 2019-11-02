@@ -10,26 +10,25 @@ public class findMin {
 
     // binarySearch
 
-    public int findMin3(int[] nums) {
+    public int findMin2(int[] nums) {
         int l = 0;
         int r = nums.length - 1;
-        while(l <= r) {
+        while(l < r) {
             int mid = l + (r - l) / 2;
-            if(nums[mid] > nums[r]) {
-                l = mid + 1;
-            } else if (nums[mid] < nums[r]) {
+            if(nums[l] == nums[r]) {
+                r--;
+            } else if (nums[mid] <= nums[r]) {
                 r = mid;
             } else {
-                r--;
+                l = mid + 1;
             }
-            if(l == r + 1) return nums[l];
         }
-        return -1;
+        return nums[l];
     }
 
 
     public static void main(String[] args) {
-        int[] test = {2,2,2,0};
-        System.out.println((new findMin()).findMin3(test));
+        int[] test = {3,3,1,3};
+        System.out.println((new findMin()).findMin2(test));
     }
 }

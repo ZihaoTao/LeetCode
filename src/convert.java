@@ -40,6 +40,6 @@ public class convert {
     }
 
     public static void main(String[] args) {
-        (new convert()).convert2("AB", 1);
+        System.out.println((new convert()).convert2("paypalishiring", 3));
     }
 }
