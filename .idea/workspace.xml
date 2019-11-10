@@ -2,52 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921055b9-efac-47e1-88c9-7f4875ffc8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/findWords2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maxProductString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/splitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minPatches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BSTIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BSTIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Trie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/coinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/coinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/convert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countBits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countDigitOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countDigitOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countSmaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countSmaller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/countSubstrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/countSubstrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/findKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/findKthLargest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/findMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/findMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/groupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/groupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/isAdditiveNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/jump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/jump.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/mySqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/mySqrt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/nthSuperUglyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/nthSuperUglyNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/permute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/permute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/reverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/reverseWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/searchInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/searchInsert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/searchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/searchRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/testString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/testString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countDigitOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countDigitOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countSmaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countSubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countSubstrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findKthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/groupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/isAdditiveNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mySqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nthSuperUglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nthSuperUglyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/removeDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/removeDuplicateLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/longestIncreasingPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/longestIncreasingPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/increasingTriplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/increasingTriplet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/isValidSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/isValidSerialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/longestIncreasingPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/longestIncreasingPath.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.coinChange">
+  <component name="RunManager" selected="Application.isValidSerialization">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -143,16 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isAdditiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="isAdditiveNumber" />
+    <configuration name="isValidSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isValidSerialization" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maxCoins" />
+    <configuration name="longestIncreasingPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="longestIncreasingPath" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -167,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nthSuperUglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nthSuperUglyNumber" />
+    <configuration name="minPatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minPatches" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -202,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.isValidSerialization" />
+        <item itemvalue="Application.minPatches" />
+        <item itemvalue="Application.longestIncreasingPath" />
         <item itemvalue="Application.coinChange" />
         <item itemvalue="Application.maxProductString" />
-        <item itemvalue="Application.nthSuperUglyNumber" />
-        <item itemvalue="Application.maxCoins" />
-        <item itemvalue="Application.isAdditiveNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +329,12 @@
       <workItem from="1571547834609" duration="4993000" />
       <workItem from="1571966409056" duration="629000" />
       <workItem from="1572374396027" duration="7965000" />
+      <workItem from="1572721865631" duration="673000" />
+      <workItem from="1572805955682" duration="585000" />
+      <workItem from="1572809835453" duration="200000" />
+      <workItem from="1572827040486" duration="218000" />
+      <workItem from="1572984576031" duration="5000" />
+      <workItem from="1573343415515" duration="6341000" />
     </task>
     <servers />
   </component>

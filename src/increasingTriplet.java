@@ -15,11 +15,16 @@ public class increasingTriplet {
     }
 
     public boolean increasingTriplet2(int[] nums) {
-        int min = Integer.MAX_VALUE, secondMin = Integer.MAX_VALUE;
-        for(int num : nums){
-            if(num <= min) min = num;
-            else if(num < secondMin) secondMin = num;
-            else if(num > secondMin) return true;
+        int min = Integer.MAX_VALUE;
+        int secMin = Integer.MAX_VALUE;
+        for(int i : nums) {
+            if(i <= min) {
+                min = i;
+            } else if (i <= secMin) {
+                secMin = i;
+            } else {
+                return true;
+            }
         }
         return false;
     }

@@ -1,43 +1,24 @@
 import java.util.Arrays;
 
 public class isValidSerialization {
+    int index = 0;
     public boolean isValidSerialization(String preorder) {
+        if(preorder == null || preorder.isEmpty()) return true;
         String[] cs = preorder.split(",");
-        return helper(cs);
+        return helper(cs) && index == cs.length - 1;
     }
 
-    private boolean helper(String[] cs) {
-        if(cs.length == 1 && cs[0].equals("#")) return true;
-        if(cs[0].equals("#")) return false;
-        int node = 0;
-        int nullNode = 0;
-        int i = 1;
-        for(; i < cs.length; i++) {
-            if(!cs[i].equals("#")) {
-                node++;
-            } else {
-                nullNode++;
-            }
-            if(node + 1 == nullNode) break;
-        }
-        if(i == cs.length - 1) return false;
-        String[] left = Arrays.copyOfRange(cs, 1, i + 1);
-        String[] right = Arrays.copyOfRange(cs, i + 1, cs.length);
-        i++;
-        for(; i < cs.length; i++) {
-            if(!cs[i].equals("#")) {
-                node--;
-            } else {
-                nullNode--;
-            }
-            if(node == nullNode) break;
-        }
-
-        if(i != cs.length - 1) return false;
-        return helper(left) && helper(right);
+    private boolean helper(String[] cs){
+        if(index >= cs.length) return false;
+        if(cs[index].equals("#")) return true;
+        index++;
+        if(!helper(cs)) return false;
+        index++;
+        if(!helper(cs)) return false;
+        return true;
     }
 
     public static void main(String[] args) {
-        (new isValidSerialization()).isValidSerialization("9,3,4,#,#,1,#,#,2,#,6,#,#");
+        System.out.println((new isValidSerialization()).isValidSerialization("#,1"));
     }
 }
